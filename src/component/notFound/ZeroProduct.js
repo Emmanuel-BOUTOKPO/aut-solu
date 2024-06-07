@@ -5,7 +5,7 @@ import "./ZeroProduct.css";
 function ZeroProduct() {
     return (
         <div id="zero-product-container">
-            <h4>Il y a aucun post pour cette catégorie !</h4>
+            <h4>Il y a aucun produit en stock !</h4>
             <ImSad id="sad-icon" />
         </div>
     )
