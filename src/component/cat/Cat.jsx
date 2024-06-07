@@ -52,11 +52,11 @@ const Cat = () => {
         </div>
         <Carousel responsive={responsive}>
         {
-        allPosts.length > 0 ? Object.entries(allPosts[0]).slice(0, 1).map(([category, postes]) => (
+        allPosts.length > 0 ? Object.entries(allPosts[0]).slice(0, 4).map(([category, postes]) => (
          <div className="single-product" key={category}>
             <div className="slid">
             <Link to="/shop">
-                <img src={postes[0]?.imgprod} alt="Categories" />
+                <img src={(postes[0]>0 && postes[0] !== undefined) && postes[0].imgprod} alt="Categories" />
             </Link>
             </div>
             <div className="slide-content_area">
