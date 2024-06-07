@@ -139,8 +139,8 @@ const Navbar = () => {
 
                     <li><Link><span><img src="/assets/images/menu/icon/1.jpg" alt="language" /></span> <span>Language</span> <i className="fa fa-chevron-down" /></Link>
                       <ul className="ht-dropdown">
-                        <li className="active"><Link><img src="assets/images/menu/icon/1.jpg" alt="JB's Language Icon" />English</Link></li>
-                        <li><Link><img src="assets/images/menu/icon/2.jpg" alt="JB's Language Icon" />Français</Link>
+                        <li className="active"><Link><img src="/assets/images/menu/icon/1.jpg" alt="JB's Language Icon" />English</Link></li>
+                        <li><Link><img src="/assets/images/menu/icon/2.jpg" alt="JB's Language Icon" />Français</Link>
                         </li>
                       </ul>
                     </li>
@@ -189,6 +189,7 @@ const Navbar = () => {
                     </li>
                     <li><Link to="/about">About Us</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/login">Login</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -304,6 +305,11 @@ const Navbar = () => {
                     <li onClick={() => setTogg(false)}>
                       <Link to="/checkout">
                         <span className="mm-text">Checkout</span>
+                      </Link>
+                    </li>
+                    <li onClick={() => setTogg(false)}>
+                      <Link to="/login">
+                        <span className="mm-text">Login</span>
                       </Link>
                     </li>
                   </ul>}
