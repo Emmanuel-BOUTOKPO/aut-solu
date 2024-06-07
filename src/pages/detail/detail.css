@@ -1,0 +1,104 @@
+.carousel-img {
+    width: 130px;  
+    height: auto;  
+    margin-right: 10px;  
+    cursor: pointer;  
+    transition: transform 0.2s ease;  
+  }
+  
+  .card-img{
+    width: 63%!important;
+    object-fit: cover;
+    margin-left: 6rem;
+}
+
+.upp{
+  text-transform: uppercase;
+}
+
+.disp{
+  display: flex;
+  align-items: center;
+}
+
+.bs{
+  margin-bottom: 0!important;
+  margin-right: 2rem;
+}
+
+.unv, .green{
+  color: green;
+}
+
+.m{
+  width: 20%!important;
+}
+ ul{
+   list-style: none;
+   padding: 0!important;
+   margin-top: 1rem!important;
+ }
+
+ .social-title{
+    margin-right: 2rem;
+ }
+ 
+ .social-item{
+   margin-right: 5px;
+   cursor: pointer;
+ }
+
+ .cl{
+   width: 100%;
+   border: none;
+   padding: 8px;
+   border-radius: 5px;
+   background: transparent linear-gradient(51deg, #00D547 0%, #00D547 50%, #2E8D00 100%) 0% 0% no-repeat padding-box;
+ }
+.needService{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #whatsapp-help-component {
+  display: flex;
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px 15px 12px 12px;
+  background-image: url("../../../public/files/whatsapp-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+} */
+  .carousel-img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .carousel-container {
+    margin-bottom: 20px;  
+  }
+  
+  .react-multiple-carousel__arrow {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+  }
+  
+
+  .react-multiple-carousel__arrow--left {
+    left: 10px; 
+  }
+  
+  .react-multiple-carousel__arrow--right {
+    right: 10px; 
+  }
+  
+.titl{
+    text-align: center;
+}
+
+.card{
+    padding: 1rem;
+}

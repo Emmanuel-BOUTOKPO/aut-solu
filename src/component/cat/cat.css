@@ -1,0 +1,23 @@
+.single-product{
+    background-color: #fcfcfc;
+    border: 1px solid #ededed;
+}
+
+.titl{
+    margin-top: 2rem;
+}
+
+.slide-content_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .react-multi-carousel-item {
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        width: 375px!important;
+    }
+}

@@ -1,0 +1,198 @@
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+  margin-bottom: 3rem;
+}  
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.a {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+.space{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .carousel-item.active:nth-child(2){
+        min-height: 380px;
+    }
+    
+    .carousel-item.active:nth-child(1) {
+        min-height: 380px;
+    }
+    
+}
+
+.carousel-item.active:nth-child(2){
+    background:url('../../../public/assets/images/slider/5.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item.active:nth-child(1) {
+ background:url('../../../public/assets/images/slider/6.jpg'); 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ min-height: 610px;
+
+}
+
+.carousel-caption {
+    right: 0%!important;
+    bottom: 3rem!important;
+    left: 0!important;
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.p{
+    color: #fff!important;
+    font-family: 'Roboto';
+    font-size: 23px; 
+    font-weight: 700; 
+    letter-spacing: 2px;
+}
+
+.pa{
+    color: #fff!important;
+    font-family: 'Roboto';  
+    padding: 0 7px;
+    font-weight: 700; 
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        min-height: 35vh;
+        background-size: cover;
+    }
+
+    .carousel-item.active:nth-child(2){
+        min-height: 35vh;
+        background-size: cover;
+   }
+   
+   .carousel-item.active:nth-child(1) {
+        min-height: 35vh;
+        background-size: cover;
+   }
+   .carousel-caption {        
+    bottom: 3rem!important;
+}
+
+
+}
+
+@media (max-width: 767px) {
+   .slider-content {
+        text-align: left;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 1rem;
+        margin-bottom: 1.9rem;
+    }
+
+    .carlet-text_color {
+        color: #e52e06 !important;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .slider-content > p {
+        color: #222222;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+
+    }
+
+
+@media (max-width: 767px) {
+    .uren-btn, .uren-btn-2, .uren-banner_btn, .uren-btn-bondi_blue, .uren-btn_fullwidth, .uren-compare_btn, .uren-filter_btn, .uren-btn_dark, .uren-btn_limerick {
+        width: 140px;
+        height: 30px;
+        line-height: 29px;
+        font-size: 14px;
+    }
+}
+
+}
+
+.btn-get-starte{
+    background-color: #ffc400;
+    color: #333333;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
+    width: 175px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel-caption {
+        right: 0% !important;
+        bottom: 9rem !important;
+        left: 33px !important;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #5febbc52;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .slider-content{
+        margin-top: 5rem;
+    }
+}

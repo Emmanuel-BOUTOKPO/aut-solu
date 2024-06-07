@@ -1,0 +1,39 @@
+.single-product{
+    background-color: #fcfcfc;
+    border: 1px solid #ededed;
+}
+
+.titl{
+    margin-top: 2rem;
+}
+
+.slide-content_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+.product-name{
+    text-align: center;
+    display: block;
+}
+
+.uren-add_cart{
+    border-radius: 5px;
+    border: 1px solid #ffc400;
+    color: #333333;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  
+}

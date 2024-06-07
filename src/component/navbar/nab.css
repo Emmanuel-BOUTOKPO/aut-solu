@@ -1,0 +1,16 @@
+.cars{
+    font-size: 3rem;
+    color: #4a4a4a;
+}
+
+.titled{
+    font-size: 2rem;
+    color: #4a4A4A;
+    font-weight: 600;
+}
+
+.select-search-category ul.list {
+    height: auto!important;
+    overflow-y: auto;
+    overscroll-behavior-x: none;
+}

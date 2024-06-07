@@ -1,0 +1,38 @@
+ 
+ .titlesf{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  
+  .file{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+ .button2{
+    cursor: pointer;
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+    padding: 3px 5px;
+  }
+
+ 
